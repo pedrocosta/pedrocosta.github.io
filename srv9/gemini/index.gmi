@@ -1,0 +1,29 @@
+# Welcome to my gemini capsule!
+
+I'm Popi.
+
+```
+ _______________
+|  ___________  |
+| |    /\_/\  | |
+| |   / . . \ | |
+| |----\(º)/--| |
+| |_((_|___|__| |
+|_______________|
+```
+
+Kato, the cat, lives in a website:
+=> https://962555000.xyz https://962555000.xyz
+
+Mika, the mouse, lives in a gopher hole:
+=> gopher://962555000.xyz gopher://962555000.xyz
+
+Koka, the frog, lives in a website:
+=> https://2555000.xyz https://2555000.xyz
+
+Wole, the owl, lives in a gemini capsule:
+=> gemini://2555000.xyz gemini://2555000.xyz
+
+Lana, the snake, lives in a gopher hole:
+=> gopher://2555000.xyz gopher://2555000.xyz
+
