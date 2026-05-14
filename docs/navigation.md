@@ -1,17 +1,27 @@
 # PEDRO COSTA
 
-[Menu Item 1]()
+[BLOG](blog.md)
 
-  * # SubMenu Heading 1
-  * [SubMenu Item 1](subitem1.md)
-  * [SubMenu Item 2](subitem2.md)
-  - - - -
-  * # SubMenu Heading 2
-  * [SubMenu Item 3](subitem3.md)
-  - - - -
-  * # SubMenu Heading 3
-  * [SubMenu Item 3](subitem3.md)
+[TECH NOTES]()
 
-[Menu Item 2](item2.md)
-- - - -
-[Menu Item 3](item3.md)
+  * [Notes](notes.md)
+  - - - -
+  * # Instalation Scripts
+  * [Ubuntu](ubuntu.md)
+  * [MacOS](macos.md)
+
+[3³ SERVERS CHALLENGE]()
+
+  * [Overview](overview.md)
+  - - - -
+  * # Monolithic
+  * [962555000.xyz](https://962555000.xyz)
+  * [HOW TO](monolithic.md)
+  - - - -
+  * # Containers
+  * [62555000.xyz](https://62555000.xyz)
+  * [HOW TO](containers.md)
+  - - - -
+  * # Kubernetes
+  * [2555000.xyz](https://2555000.xyz)
+  * [HOW TO](kubernetes.md)
