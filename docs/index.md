@@ -1,7 +1,7 @@
 PEDRO COSTA
 ===========
 
-My tech notes
--------------
+About me
+--------
 
-Olá mundo!
+Hi! I'm Pedro Costa :)
