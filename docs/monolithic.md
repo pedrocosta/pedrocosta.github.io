@@ -86,23 +86,25 @@ Ou: https://lowendbox.com/blog/running-a-gopher-server-on-a-vps-retro-internet-w
 
 -------
 
-TODO:
+# TODO:
 
-$ sudo nano /etc/default/gophernicus
----
-OPTIONS=-r /srv/gopher -p 70 -h pedrocosta.dpdns.org
----
+    $ sudo nano /etc/default/gophernicus
+    
+    ---
+    OPTIONS=-r /srv/gopher -p 70 -h pedrocosta.dpdns.org
+    ---
 
-$ sudo nano /etc/systemd/system/gophernicus.service
----
-[Unit]
-Description=Gophernicus Gopher Server
-After=network.target
-[Service]
-ExecStart=/usr/sbin/gophernicus -r /srv/gopher
-User=pedrocosta
-Group=pedrocosta
-Restart=on-failure
-[Install]
-WantedBy=multi-user.target
----
+    $ sudo nano /etc/systemd/system/gophernicus.service
+    
+    ---
+    [Unit]
+    Description=Gophernicus Gopher Server
+    After=network.target
+    [Service]
+    ExecStart=/usr/sbin/gophernicus -r /srv/gopher
+    User=pedrocosta
+    Group=pedrocosta
+    Restart=on-failure
+    [Install]
+    WantedBy=multi-user.target
+    ---
