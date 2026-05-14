@@ -84,9 +84,7 @@ Ou: https://lowendbox.com/blog/running-a-gopher-server-on-a-vps-retro-internet-w
     sudo systemctl enable gophernicus.socket
     sudo systemctl start gophernicus.socket
 
--------
-
-# TODO:
+## TODO:
 
     $ sudo nano /etc/default/gophernicus
     
