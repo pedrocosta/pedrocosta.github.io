@@ -55,7 +55,7 @@
 
 ## Install Brave browser
 
-curl -fsS https://dl.brave.com/install.sh | sh
+    curl -fsS https://dl.brave.com/install.sh | sh
 
 ## Install tplay
 
