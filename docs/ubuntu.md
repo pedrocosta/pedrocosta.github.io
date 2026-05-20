@@ -37,13 +37,6 @@
     nix profile add nixpkgs#neo-cowsay nixpkgs#fortune
     fortune | cowthink
 
-## Install Distrobox
-
-    curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo sh
-    # distrobox create -i quay.io/toolbx/arch-toolbox:latest arch
-    # distrobox create -i quay.io/fedora/fedora-toolbox:43 fedora
-    # distrobox create -i ubuntu:latest ubuntu
-
 ## Install podman and podman-compose
 
     sudo apt install -y podman podman-compose
