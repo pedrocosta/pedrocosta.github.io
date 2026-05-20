@@ -37,22 +37,9 @@
     nix profile add nixpkgs#neo-cowsay nixpkgs#fortune
     fortune | cowthink
 
-## Install Homebrew
-
-    sudo apt install -y build-essential procps curl file git gcc
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    echo >> /home/pedrocosta/.bashrc
-    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"' >> /home/pedrocosta/.bashrc
-    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"
-    brew update
-
 ## Install Distrobox
 
-    # Using Brew
-    brew install distrobox
-    # using official script
-    # curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo sh
-    # Examples:
+    curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo sh
     # distrobox create -i quay.io/toolbx/arch-toolbox:latest arch
     # distrobox create -i quay.io/fedora/fedora-toolbox:43 fedora
 
