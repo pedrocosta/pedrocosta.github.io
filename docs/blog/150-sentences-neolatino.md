@@ -1,6 +1,7 @@
 # 150 SENTENCES FOR IDENTIFYING NSM SEMANTIC PRIMES IN DIFFERENT LANGUAGES
 
-Cliff Goddard and Anna Wierzbicka 
+__Cliff Goddard and Anna Wierzbicka__
+
 April 2022 (v7). First version published in Goddard, Cliff and Wierzbicka, Anna. 2014. Semantic fieldwork and lexical universals. Studies in Language 38(1), 80–127. [doi 10.1075/sl.38.1.03god]. Previous last update June 2018 (v6).
 
 This list can be used to help identify semantic primes in any language. It is also a useful way to get a sample of the core grammar of a language. 
