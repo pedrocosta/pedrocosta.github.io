@@ -3,11 +3,15 @@
 ## Create upgrade script
 
     cat <<EOF >upgrade.sh
+    #!/bin/bash
+    # upgrade
     sudo apt --update --autoremove full-upgrade -y
     flatpak upgrade -y
     sudo snap refresh
     sudo determinate-nixd upgrade
     nix profile upgrade --all
+    # clean
+    nix-collect-garbage -d
     EOF
     chmod +x upgrade.sh
     ./upgrade.sh
