@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if title %}{{ title }} — {% endif %}RETRO TERMINAL</title>
+{% if description %}<meta name="description" content="{{ description }}">{% endif %}
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body><main class="terminal">
+<header>
+<div class="logo">MY PERSONAL TERMINAL</div>
+<p class="prompt">welcome</p>
+<nav><a href="/">home/</a><a href="/blog/">blog/</a><a href="/about/">about/</a><a href="/projects/">projects/</a></nav>
+</header>
+<article>{{ content | safe }}</article>
+<footer><div>SYSTEM STATUS: ONLINE</div><div class="status"><span>TTY: /dev/terminal</span><span>1977-11-03</span></div></footer>
+</main></body></html>

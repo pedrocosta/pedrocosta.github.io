@@ -1,0 +1,9 @@
+---
+layout: layouts/base.njk
+---
+<p class="prompt">cat {{ page.fileSlug }}.txt</p>
+<h1>{{ title }}</h1>
+{% if date %}<p class="meta">{{ date | postDate }} · {{ category }}</p>{% endif %}
+{{ content | safe }}
+{% if tags %}<p class="meta">TAGS: {% for tag in tags %}<span class="tag">#{{ tag }}</span>{% endfor %}</p>{% endif %}
+<p class="prompt"><a href="/blog/">cd ../blog/</a></p>

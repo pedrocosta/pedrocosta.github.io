@@ -1,0 +1,23 @@
+---
+layout: layouts/home.njk
+title: Home
+---
+<section class="boot">
+<pre class="ascii">    ____           __              ______           __       
+   / __ \___  ____/ /________     / ____/___  _____/ /_____ _
+  / /_/ / _ \/ __  / ___/ __ \   / /   / __ \/ ___/ __/ __ `/
+ / ____/  __/ /_/ / /  / /_/ /  / /___/ /_/ (__  ) /_/ /_/ / 
+/_/    \___/\__,_/_/   \____/   \____/\____/____/\__/\__,_/  
+                                                             </pre>
+<p class="bright">RETRO COMPUTING SYSTEM</p><p>----------------------------------------</p>
+<p>MEMORY CHECK ............ OK</p><p>DISPLAY ................. CRT 80×25</p>
+<p>KEYBOARD ................ READY</p><p>STORAGE ................. OK</p><p>NETWORK ................. CONNECTED</p>
+<br><p class="warning">BOOT SEQUENCE COMPLETE.</p><p class="prompt cursor">login</p>
+</section>
+<h1>About</h1>
+<p>Olá. Bem-vindo ao meu pequeno canto da internet.</p>
+<p>Este site foi construído com <strong>HTML, CSS e Eleventy</strong>, porque às vezes a melhor interface é simplesmente uma linha de comandos.</p>
+<h2>Directory</h2><div class="directory"><a href="/about/">about/</a><a href="/blog/">blog/</a><a href="/projects/">projects/</a></div>
+<h2>Latest notes</h2><ul class="post-list">
+{% for post in collections.posts | reverse %}<li><span class="date">{{ post.date | postDate }}</span> — <a href="{{ post.url }}">{{ post.data.title }}</a><br>{{ post.data.description }}</li>{% endfor %}
+</ul>
